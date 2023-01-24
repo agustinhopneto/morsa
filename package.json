@@ -2,7 +2,11 @@
   "name": "morsa",
   "version": "1.0.0",
   "description": "",
+  "main": "example.js",
   "scripts": {
+    "clean": "rm -rf lib",
+    "build": "npm run clean && tsc",
+    "example": "npm run build && node .",
     "test": "mocha -r ts-node/register ./src/**/**/*.test.ts",
     "test:cov": "nyc mocha -r ts-node/register ./src/**/**/*.test.ts"
   },
