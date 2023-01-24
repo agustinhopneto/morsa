@@ -57,5 +57,3 @@ export default class Morsa {
     return mapWords.join(' ').toUpperCase();
   }
 }
-
-export const normalizeString = Morsa.normalizeString;

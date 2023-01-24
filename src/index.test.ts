@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import { describe, it, beforeEach } from 'mocha';
 
-import Morsa, { normalizeString } from '.';
+import Morsa from '.';
 
 describe('Morsa Suite Test', () => {
   let morsa: Morsa;
@@ -13,7 +13,7 @@ describe('Morsa Suite Test', () => {
   it('should replace special characters and normalize a text', () => {
     const textInput = ' mÓrsâ ';
     const expected = 'morsa';
-    const result = normalizeString(textInput);
+    const result = Morsa.normalizeString(textInput);
 
     expect(result).to.be.deep.equal(expected);
   });
