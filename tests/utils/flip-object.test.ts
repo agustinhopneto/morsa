@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import { describe, it } from 'mocha';
-import { flipObject } from './flip-object';
+import { flipObject } from '../../src/utils/flip-object';
 
 describe('Flip Object Suite Test', () => {
   it('should flip an object', () => {

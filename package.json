@@ -23,8 +23,8 @@
     "morse translator"
   ],
   "scripts": {
-    "test": "mocha -r ts-node/register ./src/**/**/*.test.ts",
-    "test:cov": "nyc mocha -r ts-node/register ./src/**/**/*.test.ts",
+    "test": "mocha",
+    "test:cov": "nyc mocha",
     "clean": "rm -rf ./lib",
     "build:esm": "tsc -p tsconfig.esm.json && mv lib/esm/index.js lib/esm/index.mjs",
     "build:cjs": "tsc -p tsconfig.cjs.json",

@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import { describe, it, beforeEach } from 'mocha';
 
-import Morsa from '.';
+import Morsa from '../src';
 
 describe('Morsa Suite Test', () => {
   let morsa: Morsa;
@@ -28,7 +28,7 @@ describe('Morsa Suite Test', () => {
   });
 
   it('should replace by "#" while encoding a non mapped char', () => {
-    const textInput = 'This is MORSA! 🥵';
+    const textInput = 'This is MORSA! ぁ';
     const expected = '- .... .. ... / .. ... / -- --- .-. ... .- -.-.-- / #';
 
     const result = morsa.encode(textInput);
@@ -48,7 +48,7 @@ describe('Morsa Suite Test', () => {
 
   it('should replace by "#" while decoding a non mapped code', () => {
     const codeInput =
-      '-.. . -.-. --- -.. . -.. / -... -.-- / -- --- .-. ... .- -.-.-- / 😎';
+      '-.. . -.-. --- -.. . -.. / -... -.-- / -- --- .-. ... .- -.-.-- / ぁ';
     const expected = 'DECODED BY MORSA! #';
 
     const result = morsa.decode(codeInput);
