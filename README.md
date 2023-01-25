@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
   ```
-  npm install morsa
+  npm install @agustinhopneto/morsa
   ```
 
 ### Running locally
