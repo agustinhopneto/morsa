@@ -1,4 +1,4 @@
-const Morsa = require('./lib').default;
+const Morsa = require('./lib/cjs').default;
 
 const morsa = new Morsa();
 

@@ -1,4 +1,6 @@
-export function flipObject(object: Record<string, unknown>) {
+export function flipObject(
+  object: Record<string, string>,
+): Record<string, string> {
   const objectEntriesArray = Object.entries(object);
 
   const flippedEntriesArray = objectEntriesArray.map(([key, value]) => [
