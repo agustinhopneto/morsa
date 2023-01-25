@@ -1,8 +1,26 @@
 {
   "name": "@agustinhopneto/morsa",
   "version": "0.1.0",
-  "description": "",
+  "description": "Just a simple morse code translator.",
+  "author": {
+    "name": "Agustinho Neto",
+    "email": "agustinho.pneto@gmail.com",
+    "url": "https://github.com/agustinhopneto"
+  },
+  "homepage": "https://github.com/agustinhopneto/morse.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agustinhopneto/morse.git"
+  },
   "main": "example.js",
+  "license": "MIT",
+  "keywords": [
+    "morse",
+    "code",
+    "translator",
+    "morse code",
+    "morse translator"
+  ],
   "scripts": {
     "clean": "rm -rf lib",
     "build": "npm run clean && tsc",
@@ -10,9 +28,6 @@
     "test": "mocha -r ts-node/register ./src/**/**/*.test.ts",
     "test:cov": "nyc mocha -r ts-node/register ./src/**/**/*.test.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.3.4",
     "@types/mocha": "^10.0.1",
