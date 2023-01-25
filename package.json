@@ -1,6 +1,6 @@
 {
-  "name": "morsa",
-  "version": "1.0.0",
+  "name": "@agustinhopneto/morsa",
+  "version": "0.1.0",
   "description": "",
   "main": "example.js",
   "scripts": {
