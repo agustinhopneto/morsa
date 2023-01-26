@@ -34,7 +34,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ## Getting Started
 ### Installation
   ```
-  npm install @agustinhopneto/morsa
+  npm install morsa
   ```
 
 ### Running locally
