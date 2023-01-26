@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
+    "target": "ES2019",
     "rootDir": "./src",
     "outDir": "./lib",
     "declarationDir": "./lib/types"
