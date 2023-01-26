@@ -1,6 +1,6 @@
 {
-  "name": "@agustinhopneto/morsa",
-  "version": "0.2.2",
+  "name": "morsa",
+  "version": "1.0.0",
   "description": "Just a simple morse code translator.",
   "author": {
     "name": "Agustinho Neto",
