@@ -26,8 +26,7 @@
 MORSA is a very simple library that translates morse code into words or a encodes text into morse code. It doesn't uses any library to do the work, being very small and simple.
 
 ### Built With
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
+This project was built with nice technologies:
 * [![TypeScript][TypeScript]][TypeScript-url]
 
 <!-- GETTING STARTED -->
